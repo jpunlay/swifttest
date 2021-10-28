@@ -14,6 +14,8 @@
 		F2B2477F2728ED6D001C5956 /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B2477E2728ED6D001C5956 /* testUITests.swift */; };
 		F2B247812728ED6D001C5956 /* testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B247802728ED6D001C5956 /* testUITestsLaunchTests.swift */; };
 		F2B247922728FA4B001C5956 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B247912728FA4B001C5956 /* CircleImage.swift */; };
+		F2B24794272B4744001C5956 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B24793272B4744001C5956 /* MapView.swift */; };
+		F2B24796272B480B001C5956 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B24795272B480B001C5956 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F2B2477E2728ED6D001C5956 /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		F2B247802728ED6D001C5956 /* testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F2B247912728FA4B001C5956 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F2B24793272B4744001C5956 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F2B24795272B480B001C5956 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		F2B247622728ED6C001C5956 /* swifttest */ = {
 			isa = PBXGroup;
 			children = (
+				F2B24793272B4744001C5956 /* MapView.swift */,
+				F2B24795272B480B001C5956 /* TextView.swift */,
 				F2B247632728ED6C001C5956 /* testApp.swift */,
 				F2B247912728FA4B001C5956 /* CircleImage.swift */,
 				F2B247672728ED6D001C5956 /* Assets.xcassets */,
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2B247922728FA4B001C5956 /* CircleImage.swift in Sources */,
+				F2B24796272B480B001C5956 /* TextView.swift in Sources */,
+				F2B24794272B4744001C5956 /* MapView.swift in Sources */,
 				F2B247642728ED6C001C5956 /* testApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
