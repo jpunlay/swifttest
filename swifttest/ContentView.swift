@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CircleImage: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Image("turtlerock")
+            .clipShape(Circle())
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        CircleImage()
     }
 }
